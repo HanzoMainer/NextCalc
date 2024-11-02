@@ -1,0 +1,8 @@
+.headerContainer {
+    display: absolute;
+    height: 90px;
+    width: 100%;
+    background-color: #303136;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
