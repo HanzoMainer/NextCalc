@@ -4,10 +4,11 @@ export function Header()
   return (
     <>
         <div className={styles.headerContainer}>
-            <h1>
-                <img src="Logo.svg" alt="" />
-               NextCalc
-            </h1>
+            <div className={styles.headerName}>    
+                <div className="logo"><img src="Logo.svg" alt="Logo.svg"/></div>        
+                <div><h1>NextCalc</h1></div>
+            </div>
+
         </div>
     </>
   )

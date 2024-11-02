@@ -1,8 +1,19 @@
 .headerContainer {
-    display: absolute;
-    height: 90px;
+    display: flex;
+    height: 100px;
     width: 100%;
     background-color: #303136;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+.headerName {
+    display: inline-flex;
+    margin-left: 91px;
+    align-items: center;
+    gap: 10px   ;
+
+}
+
+.logo {
 }
