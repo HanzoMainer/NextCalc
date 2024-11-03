@@ -1,0 +1,38 @@
+.calculatorHeadContainer {
+    display: grid;
+    height: 30%;
+    grid-template-rows: 1fr 2fr;
+}
+
+.calculatorHeadHistory {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #818181;
+    padding-right: 8%;
+}
+
+.calculatorHistoryNumber {
+    color: white;
+}
+
+.calculatorHistoryOperation {
+    color: #818181;
+}
+
+.calculatorHeadCondition {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4%;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    color: #ffffff;
+}

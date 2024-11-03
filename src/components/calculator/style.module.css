@@ -1,0 +1,35 @@
+.calculatorGrid {
+    display: grid;
+}
+
+.calculator {
+    display: grid;
+    grid-area: 1 / 2 / 2 / 3;
+    background: #1f2023;
+    width: 750px;
+    max-height: 714px;
+    border: 3px solid #1f2023;
+    border-radius: 39px;
+    box-shadow: 4px 6px 12.5px 0px #00000040;
+    margin-top: 7%;
+}
+
+.calculatorMiddleLine {
+    position: absolute;
+    height: 709px;
+    left: 50%;
+    border: 3px solid rgba(38, 39, 43, 0.62);
+    filter: blur(2.2px);
+}
+
+.calculatorComponentLeft {
+    grid-area: 1 / 1 / 2 / 2;
+    width: 375px;
+    height: 714px;
+}
+
+.calculatorComponentRight {
+    grid-area: 1 / 2 / 2 / 3;
+    width: 375px;
+    height: 714px;
+}
