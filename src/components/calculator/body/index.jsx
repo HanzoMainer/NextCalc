@@ -1,6 +1,6 @@
 import styles from "./style.module.css";
 
-export function CalculatorBody() {
+export function CalculatorBody({ onButtonClick }) {
     return (
         <>
             <div className={styles.calculatorButtonsContainer}>
@@ -26,13 +26,13 @@ export function CalculatorBody() {
                 </div>
                 <div className={styles.calculatorOperationsButtons}>
                     <div className={styles.calculatorOperations}>
-                        <img src="DignityButton.svg" alt="Стереть" />
+                        <img src="DignityButton.svg" alt="Разделить" />
                     </div>
                 </div>
                 <div className={styles.calculatorOperationsButtons}>
                     <div className={styles.calculatorOperations}>*</div>
                 </div>
-                <div className={styles.calculatorNumbersButtons}>
+                <div className={styles.calculatorNumbersButtons} onClick={() => onButtonClick("7")}>
                     <div className={styles.calculatorNumbers}>7</div>
                 </div>
                 <div className={styles.calculatorNumbersButtons}>
@@ -65,11 +65,11 @@ export function CalculatorBody() {
                 <div className={styles.calculatorNumbersButtons}>
                     <div className={styles.calculatorNumbers}>3</div>
                 </div>
-                <div></div>
+                <div className={styles.emptyPoint}></div>
                 <div className={styles.calculatorZeroButton}>
                     <div className={styles.calculatorNumbers}>0</div>
                 </div>
-                <div></div>
+                <div className={styles.emptyPoint}></div>
                 <div className={styles.calculatorDotButton}>
                     <div className={styles.calculatorNumbers}>.</div>
                 </div>
